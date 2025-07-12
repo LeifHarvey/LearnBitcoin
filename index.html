@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn Bitcoin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #f7931a;
+      color: white;
+      padding: 2rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .header-content {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      text-align: left;
+    }
+    .header-content img {
+      width: 64px;
+      height: 64px;
+    }
+    .header-text {
+      font-size: 2.4rem;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+    nav {
+      background: #fff;
+      padding: 0.8rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    nav a {
+      color: #f7931a;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 600;
+    }
+    .container {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    .hero {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .donate {
+      background: #fff8f2;
+      padding: 2rem;
+      border-left: 6px solid #f7931a;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .donate img {
+      max-width: 160px;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <img src="Bitcoin.svg.webp" alt="Bitcoin Logo" />
+      <div class="header-text">
+        Learn<br>Bitcoin
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">What is Bitcoin?</a>
+    <a href="#donate">Donate</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main class="container">
+    <section id="about" class="section hero">
+      <h2>What is Bitcoin?</h2>
+      <p>Bitcoin is a decentralized digital currency that allows anyone to send money over the internet — no banks or middlemen required. It’s fast, global, and open to all.</p>
+      <p>Here, you'll find easy-to-follow guides and resources to help you understand how Bitcoin works, why it matters, and how you can get started safely.</p>
+    </section>
+
+    <section id="donate" class="section donate">
+      <h2>Support Our Mission</h2>
+      <p>If you found this resource helpful, consider donating to keep the project running. Your support helps make Bitcoin education accessible for everyone.</p>
+      <p><strong>Bitcoin address:</strong><br><code>bc1qexampleaddress123...</code></p>
+      <img src="btc_qr.png" alt="Bitcoin QR Code" />
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Get in Touch</h2>
+      <p>Questions? Feedback? Contact me at <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Learn Bitcoin | Built with ❤️ on GitHub Pages
+  </footer>
+
+</body>
+</html>
